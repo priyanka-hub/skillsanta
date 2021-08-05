@@ -36,7 +36,7 @@ company: 'Rohit'
 }
 var Emp1 = Object.create(employee);
 delete Emp1.company Console.log(emp1.company)
-Uncaught SyntaxError: Unexpected identifier 
+A) Uncaught SyntaxError: Unexpected identifier 
  at https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-bf25a0c2-8886-3bea-0d71-d44b522302e6:6
 
 
@@ -74,12 +74,12 @@ what will be the output for the above code?
 Q6. How to delete 'Beethoven' from set
        const set = new Set(['Beethoven', 'Mozart', 'Chopin', 'Chopin'])
 
-A)	set.delete(ìBeethovenî);
+A)	set.delete(‚ÄúBeethoven‚Äù);
 
 Q7. Create a nested array object called operatingSystem and add below key and values
 Name - Ubuntu , version - 18.4 , license - open source
 
-var operatingSystem = new Array ( );
+A) var operatingSystem = new Array ( );
 operatingSystem[0] = new Array ( "Name",  "Ubuntu" );
 operatingSystem[1] = new Array ( "version",  "18.4" );
 operatingSystem[2] = new Array ( "license",  "open source" );
